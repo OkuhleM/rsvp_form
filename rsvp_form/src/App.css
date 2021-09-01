@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Roboto&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* background-color: rgb(98, 184, 151); */
+  /* border: 2px solid rgb(20, 18, 18); */
+  /* border-radius: 35px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(219, 16, 185);
+  padding: 2rem;
+  margin: 3rem;
+  font-size: 2rem;
+  font-family: Berkshire Swash;
+}
+
+body {
+  background-image: url("https://cdn0.hitched.co.uk/articles/images/7/3/0/4/img_14037/Elegant-Dresses-Stella-York2-ff18f9a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+}
+
+button {
+  /* width: 100%; */
+  padding: 0.75rem;
+  background: rgb(131, 129, 136);
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(10, 7, 7);
+}
+
+input[type=number] {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(10, 7, 7);
+}
+
+input[type=date] {
+  /* width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(10, 7, 7);
+}
+
+.rsvp form {
+  background-color: rgb(98, 184, 151);
+  border: 2px solid rgb(6, 31, 39);
+  border-radius: 35px;
+  padding: 2rem 3rem;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+  /* position: fixed;
+  top: 50%;
+  left: 50%; */
+  /* bring your own prefixes */
+  /* transform: translate(-50%, -50%); */
+}
+
+li {
+  /* flex: 1; */
+  padding: 15px 13px;
+  margin: 0 auto;
+  border: 2px solid black;
+  white-space: pre-wrap;
+  font-size: 15px;
+  list-style: none;
+  border-radius: 35px;
+  width: 20%;
+  background-color: rgb(227, 233, 230);
+  text-align: center;
+  font-family: Berkshire Swash;
+}
